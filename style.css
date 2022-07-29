@@ -1,5 +1,18 @@
 /***************GLOBAL***********************/
+html {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: normal;
+}
+
 
 header {
+    /* items */
+    display: flex;
+    justify-content: space-around;
+    
+
+    /*Cores e fontes */
+    color:#333333;
+    text-decoration: none;
     background: #85CDF5;
 }
