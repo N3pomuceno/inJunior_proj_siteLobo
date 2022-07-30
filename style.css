@@ -17,6 +17,25 @@ header {
     background: #85CDF5;
 }
 
+h1 {
+    /*posição*/
+    text-align: center;
+
+    /*Tamanho*/
+}
+
+h2 {
+    /*posição*/
+    text-align:center;
+
+    /*Tamanho*/
+}
+
+.sub_sec_valores {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     /* items */
     display: flex;
