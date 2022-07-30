@@ -18,15 +18,19 @@ header {
 }
 
 footer {
-        /* items */
-        display: flex;
-        justify-content: space-around;
-        
+    /* items */
+    display: flex;
+    justify-content: space-around;
     
-        /*Cores e fontes */
-        color: white;
-        background: #333333;
+
+    /*Cores e fontes */
+    color: white;
+    background: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
 }
+
 iframe {
     width: 250px;
     height: 170px;
