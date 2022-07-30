@@ -40,14 +40,16 @@ footer {
     /* items */
     display: flex;
     justify-content: space-around;
+    padding: 20px;
     
 
     /*Cores e fontes */
     color: white;
     background: #333333;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 15px;
+}
+
+.linha {
+    display: flex;
 }
 
 iframe {
