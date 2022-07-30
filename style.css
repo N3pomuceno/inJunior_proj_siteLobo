@@ -16,3 +16,18 @@ header {
     text-decoration: none;
     background: #85CDF5;
 }
+
+footer {
+        /* items */
+        display: flex;
+        justify-content: space-around;
+        
+    
+        /*Cores e fontes */
+        color: white;
+        background: #333333;
+}
+iframe {
+    width: 250px;
+    height: 170px;
+}
