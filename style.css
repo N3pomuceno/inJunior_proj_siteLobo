@@ -1,4 +1,4 @@
-/***************GLOBAL***********************/
+/***************  GLOBAL ***********************/
 html {
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
@@ -55,4 +55,27 @@ footer {
 iframe {
     width: 250px;
     height: 170px;
+}
+
+/*****************  LISTA LOBINHOS  ***********************/
+
+.container{
+    width:auto;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar input{
+    flex: 1;
+    border: 1;
+    height: 10px;
+    width: 800px;
+    padding: 5px 5px;
+    
+}
+
+.search_bar img{
+    height: 30px;
 }
