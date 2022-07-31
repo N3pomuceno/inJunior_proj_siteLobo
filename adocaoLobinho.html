@@ -13,34 +13,41 @@
 
     </header>
 
-    <div>
-        <img class="top_adotar" id="new_wolf" src="images/new_wolf.jpg" alt="">
-        <h1 class="top_adotar">Adote o(a) NomeDoLobo</h1> <br>
-        <h3 class="top_adotar id" >ID:XXXXX</h3>
+    <div class="container">
+
+        <div class="form_adotar">
+            <div class="top_adotar">
+                <img id="adotar_new_wolf" src="images/new_wolf.jpg" alt="">
+                <div class="header_top_adotar">
+                    <h1>Adote o(a) NomeDoLobo</h1> <br>
+                    <h3>ID:XXXXX</h3>
+                </div>
+            </div>
+
+            <div class="input_group_adotar">
+                    <div class="input_box_adotar nome">
+                        <label for="name">Seu Nome: </label> <br>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="input_box_adotar idade">
+                        <label for="age">Idade: </label> <br>
+                        <input type="text" name="age" id="age" required>
+                    </div>
+                    <br>
+                    <div class="input_box_adotar email">
+                        <label for="email">E-mail: </label> <br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <button class="button_adotar" type="submit">Adotar</button>
+            </div>
+        </div>
+
+        
     </div>
-
-    <form action="">
-        <fieldset class="form_adotar">
-            <div class="box first">
-                <label for="name">Seu Nome: </label> <br>
-                <input type="text" name="name" id="name" required>
-            </div>
-            <div class="box first">
-                <label for="age">Idade: </label> <br>
-                <input type="text" name="age" id="age" required>
-            </div>
-            <div class="box second">
-                <label for="name">E-mail: </label> <br>
-                <input type="email" name="email" id="email" required>
-            </div>
-
-            <button class="button_adotar" type="submit">Adotar</button>
-        </fieldset>
-    </form>
 
     <footer>
 
     </footer>
-    
 </body>
 </html>

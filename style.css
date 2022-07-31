@@ -129,20 +129,57 @@ iframe {
 
 /*****************  ADOTAR LOBINHO  ***********************/
 
-#new_wolf {
+.container {
+    width: 80%;
+    height: 40vh;
+    padding: 80px;
+    display: flex;
+}
+
+#adotar_new_wolf {
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
 
+.form_adotar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
 .top_adotar {
-    display: inline;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.box_first {
-    display: inline;
+.header_top_adotar h1{
+    font-size: 35px;
 }
 
-.id {
+.header_top_adotar h3{
     font-size: 10px;
+}
+
+.input_group_adotar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input_box_adotar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button_adotar{
+    justify-content: center;
+
 }
