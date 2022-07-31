@@ -71,9 +71,36 @@ iframe {
 
 /**************** HOME PAGE *********************/
 
+.sec_lobo {
+    /* background*/
+    width: auto;
+    height: 600px;;
+    background-image: url("images/homePage_body_lobo-image.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*texto e fonte */
+    color: white;
+    align-items: center;
+}
+
+.sec_sobre {
+    /* background*/
+    width: auto;
+    height: 350px;
+    background-color: #2C5680;
+}
+
+.sec_valores {
+    background-color:#333;
+}
+
 .sub_sec_valores {
+    /* background*/
     display: flex;
     justify-content: center;
+    height:625px;
 }
 
 
