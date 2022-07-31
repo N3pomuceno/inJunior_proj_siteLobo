@@ -4,11 +4,13 @@ html {
     font-style: normal;
 }
 
+/***************** Header *********************/
 
 header {
     /* items */
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 
     /*Cores e fontes */
@@ -31,15 +33,13 @@ h2 {
     /*Tamanho*/
 }
 
-.sub_sec_valores {
-    display: flex;
-    justify-content: center;
-}
+
+/*********************** Footer *******************/
 
 footer {
     /* items */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
     
 
@@ -48,14 +48,34 @@ footer {
     background: #333333;
 }
 
+#info_text {
+    translate: -125px;
+}
+
 .linha {
     display: flex;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.linha img {
+    margin-right: 10px;
 }
 
 iframe {
     width: 250px;
     height: 170px;
 }
+
+
+
+/**************** HOME PAGE *********************/
+
+.sub_sec_valores {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*****************  LISTA LOBINHOS  ***********************/
 
