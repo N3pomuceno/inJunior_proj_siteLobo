@@ -1,4 +1,5 @@
 /***************  GLOBAL ***********************/
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap');
 html {
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
@@ -19,6 +20,21 @@ header {
     background: #85CDF5;
 }
 
+header a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color:black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
 h1 {
     /*posição*/
     text-align: center;
@@ -36,6 +52,9 @@ footer {
     /* items */
     display: flex;
     justify-content: space-evenly;
+    border-top-style: solid;
+    border-image: linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1;/*linear-gradient(88deg,#1100ff -38.42%,#ff0000 150.39%) 1;   linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1*/
+    border-top-width: 0.5rem;
     padding: 20px;
     
 
@@ -63,6 +82,16 @@ iframe {
     height: 170px;
 }
 
+#footer_button {
+    background: rgb(222, 185, 89);
+    border:0;
+    color: rgb(51,51,51);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /**************** HOME PAGE *********************/
@@ -82,9 +111,10 @@ iframe {
 }
 
 .sec_lobo h1 {
-    padding-top:13%;
-    font-weight: 700;
-    font-size: 72px;
+    padding-top:10%;
+    font-weight:bold;
+    font-size: 96px;
+    line-height: 130px;
 }
 
 #linha_lobo {
@@ -102,8 +132,7 @@ iframe {
     padding-top: 20px;
 
     /*texto*/
-    font-weight: 100;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 25px;
 }
 
@@ -114,14 +143,22 @@ iframe {
     background-color: #2C5680;
 }
 
-.sec_sobre p{
-    margin:auto;
+.sec_sobre h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;    
+}
+
+.sec_sobre p {
+    margin: auto;
     max-width: 75%;
 
-    color: white;
-    font-weight: 400;
     font-size: 24px;
     line-height: 33px;
+    color: white;
     text-align: center;
 }
 
@@ -130,37 +167,21 @@ iframe {
 
 }
 
-.sec_sobre h2{
-    padding-top: 30px;
-
-    color: #DEB959;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 65px;    
-}
-
-.sec_sobre p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 33px;
-    text-align: center;
-}
-
 .sec_valores h2{
     padding-top: 30px;
 
     color: #DEB959;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 48px;
     line-height: 65px;    
 }
 
 .sec_valores h3{
     color:white;
-    font-size: 18px;
-    padding-top:20px;
+    font-size: 34px;
+    padding-top: 20px;
     padding-bottom: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .sub_sec_valores {
@@ -171,7 +192,7 @@ iframe {
 }
 
 .card {
-    width: 200px;
+    width: 250px;
     height: 400px;
 
     text-align: center;
