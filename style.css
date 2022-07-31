@@ -22,15 +22,11 @@ header {
 h1 {
     /*posição*/
     text-align: center;
-
-    /*Tamanho*/
 }
 
 h2 {
     /*posição*/
     text-align:center;
-
-    /*Tamanho*/
 }
 
 
@@ -82,7 +78,33 @@ iframe {
 
     /*texto e fonte */
     color: white;
-    align-items: center;
+    text-align: center;
+}
+
+.sec_lobo h1 {
+    padding-top:13%;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+#linha_lobo {
+    border: 3px solid;
+    max-width: 10%;
+    max-height:1px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec_lobo p {
+    max-width: 60%;
+    margin: auto;
+    padding-top: 20px;
+
+    /*texto*/
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 25px;
 }
 
 .sec_sobre {
@@ -90,6 +112,17 @@ iframe {
     width: auto;
     height: 350px;
     background-color: #2C5680;
+}
+
+.sec_sobre p{
+    margin:auto;
+    max-width: 75%;
+
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
 }
 
 .sec_valores {
