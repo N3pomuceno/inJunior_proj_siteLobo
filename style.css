@@ -94,15 +94,76 @@ iframe {
 
 .sec_valores {
     background-color:#333;
+
+}
+
+.sec_sobre h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 65px;    
+}
+
+.sec_sobre p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.sec_valores h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 65px;    
+}
+
+.sec_valores h3{
+    color:white;
+    font-size: 18px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .sub_sec_valores {
     /* background*/
     display: flex;
     justify-content: center;
-    height:625px;
+    height:425px;
 }
 
+.card {
+    width: 200px;
+    height: 400px;
+
+    text-align: center;
+    color: white;
+}
+
+.card div{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    margin:auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card img {
+    width: 120px;
+    height: auto;
+}
+
+.card p {
+    margin:auto;
+    max-width:180px;
+}
 
 /*****************  LISTA LOBINHOS  ***********************/
 
