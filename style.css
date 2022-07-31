@@ -187,3 +187,23 @@ iframe {
 .search_bar img{
     height: 30px;
 }
+
+/*****************  ADOTAR LOBINHO  ***********************/
+
+#new_wolf {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.top_adotar {
+    display: inline;
+}
+
+.box_first {
+    display: inline;
+}
+
+.id {
+    font-size: 10px;
+}
