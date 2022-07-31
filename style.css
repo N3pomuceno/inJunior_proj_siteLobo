@@ -220,6 +220,16 @@ iframe {
     line-height: 20px;
 }
 
+.sec_exemplos h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;    
+}
+
+
 /*****************  LISTA LOBINHOS  ***********************/
 
 .container{
