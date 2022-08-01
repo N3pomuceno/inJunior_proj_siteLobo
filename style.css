@@ -1,4 +1,5 @@
 /***************  GLOBAL ***********************/
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap');
 html {
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
@@ -19,18 +20,29 @@ header {
     background: #85CDF5;
 }
 
+header a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color:black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
 h1 {
     /*posição*/
     text-align: center;
-
-    /*Tamanho*/
 }
 
 h2 {
     /*posição*/
     text-align:center;
-
-    /*Tamanho*/
 }
 
 
@@ -40,6 +52,9 @@ footer {
     /* items */
     display: flex;
     justify-content: space-evenly;
+    border-top-style: solid;
+    border-image: linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1;/*linear-gradient(88deg,#1100ff -38.42%,#ff0000 150.39%) 1;   linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1*/
+    border-top-width: 0.5rem;
     padding: 20px;
     
 
@@ -67,6 +82,16 @@ iframe {
     height: 170px;
 }
 
+#footer_button {
+    background: rgb(222, 185, 89);
+    border:0;
+    color: rgb(51,51,51);
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /**************** HOME PAGE *********************/
@@ -82,7 +107,33 @@ iframe {
 
     /*texto e fonte */
     color: white;
-    align-items: center;
+    text-align: center;
+}
+
+.sec_lobo h1 {
+    padding-top:10%;
+    font-weight:bold;
+    font-size: 96px;
+    line-height: 130px;
+}
+
+#linha_lobo {
+    border: 3px solid;
+    max-width: 10%;
+    max-height:1px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec_lobo p {
+    max-width: 60%;
+    margin: auto;
+    padding-top: 20px;
+
+    /*texto*/
+    font-size: 30px;
+    line-height: 25px;
 }
 
 .sec_sobre {
@@ -92,57 +143,278 @@ iframe {
     background-color: #2C5680;
 }
 
+.sec_sobre h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;    
+}
+
+.sec_sobre p {
+    margin: auto;
+    max-width: 75%;
+
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    text-align: center;
+}
+
 .sec_valores {
     background-color:#333;
+
+}
+
+.sec_valores h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;    
+}
+
+.sec_valores h3{
+    color:white;
+    font-size: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
 }
 
 .sub_sec_valores {
     /* background*/
     display: flex;
     justify-content: center;
-    height:625px;
+    height:425px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+
+    text-align: center;
+    color: white;
+}
+
+.card div{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    margin:auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card img {
+    width: 120px;
+    height: auto;
+}
+
+.card p {
+    margin:auto;
+    max-width:180px;
+    line-height: 20px;
+}
+
+.sec_exemplos h2{
+    padding-top: 30px;
+
+    color: #DEB959;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;    
 }
 
 
 /*****************  LISTA LOBINHOS  ***********************/
 
-.container{
+.container_s{
     width:auto;
-    padding: 5%;
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 3%;
+    padding-left: 10vw;
+    display: colum;
     align-items: center;
     justify-content: center;
 }
 
-.search_bar input{
-    flex: 1;
-    border: 1;
-    height: 10px;
-    width: 800px;
-    padding: 5px 5px;
-    
+.container_s :first-child{
+    display: inline-block;
 }
 
+.search_bar{
+    border: 1px solid black;
+}
+
+.search{
+    display: inline-block;
+}
+
+.search_bar input{
+    height: 47px;
+    width: 950px;
+    border: 0;
+    margin:5px;
+    
+}
 .search_bar img{
     height: 30px;
+    margin-left: 0.5vw;
+    vertical-align: middle
+}
+
+#button_search{
+    background-color: #DEB959;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    
+    width: 130px;
+    height: 47px;
+    cursor: pointer;
 }
 
 /*****************  ADOTAR LOBINHO  ***********************/
 
-#new_wolf {
+.container {
+    height: 40vh;
+    padding: 80px;
+    display: flex;
+    width:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#adotar_new_wolf {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    padding: 10px;
+}
+
+.form_adotar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
 }
 
 .top_adotar {
-    display: inline;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.box_first {
-    display: inline;
+.header_top_adotar h1{
+    font-size: 35px;
 }
 
-.id {
-    font-size: 10px;
+.header_top_adotar h3{
+    font-size: 14px;
 }
+
+.input_group_adotar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.input_box_adotar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#name{
+    width: 55vh;
+}
+
+#age {
+    width: 10vh;
+}
+
+#email {
+    width: 550px;
+}
+
+.input_box_adotar input{
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+.button_adotar{
+    background-color: #2C5680;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 0;
+    padding-bottom: 11px;
+    font-size: 36px;
+    cursor: pointer;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-style: normal;
+}
+
+/*****************  ADICIONAR LOBINHO  ***********************/
+
+.container_cadastro{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.form_cadastro{
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.form_cadastro > h1{
+    font-size: 35px;
+    margin: 10px;
+}
+
+.input_group_cadastrar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.input_box_cadastrar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+#name_c{
+    width: 20vw;
+}
+#age_c{
+    width: 5vw;
+}
+#link_c {
+    width: 27vw;
+}
+#description{
+    width: 27vw;
+}
+
+.input_group_cadastrar input, textarea{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
