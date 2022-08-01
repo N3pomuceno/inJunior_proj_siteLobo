@@ -232,34 +232,61 @@ iframe {
 
 /*****************  LISTA LOBINHOS  ***********************/
 
-.container{
+.container_s{
     width:auto;
-    padding: 5%;
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 3%;
+    padding-left: 10vw;
+    display: colum;
     align-items: center;
     justify-content: center;
 }
 
-.search_bar input{
-    flex: 1;
-    border: 1;
-    height: 10px;
-    width: 800px;
-    padding: 5px 5px;
-    
+.container_s :first-child{
+    display: inline-block;
 }
 
+.search_bar{
+    border: 1px solid black;
+}
+
+.search{
+    display: inline-block;
+}
+
+.search_bar input{
+    height: 47px;
+    width: 950px;
+    border: 0;
+    margin:5px;
+    
+}
 .search_bar img{
     height: 30px;
+    margin-left: 0.5vw;
+    vertical-align: middle
+}
+
+#button_search{
+    background-color: #DEB959;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    
+    width: 130px;
+    height: 47px;
+    cursor: pointer;
 }
 
 /*****************  ADOTAR LOBINHO  ***********************/
 
 .container {
-    width: 90%;
     height: 40vh;
     padding: 80px;
     display: flex;
+    width:auto;
+    align-items: center;
+    justify-content: center;
 }
 
 #adotar_new_wolf {
