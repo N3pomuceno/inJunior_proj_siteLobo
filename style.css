@@ -310,6 +310,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .header_top_adotar h1{
@@ -418,3 +419,10 @@ iframe {
     border: 1px solid black;
 }
 
+/******************QUEM SOMOS*************************/
+
+#footer_quem_somos{
+    position: absolute;
+    bottom: 0;
+    width: 97.9%;
+}
