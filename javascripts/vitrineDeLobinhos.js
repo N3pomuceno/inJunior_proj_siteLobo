@@ -29,7 +29,7 @@ function show(lobin) {
                 <p>Idade: ${lobin.age} anos</p>
                 
             </div>
-            <button class="button_search">Adotar</button>
+            <a href="adocaoLobinho.html"><button class="button_search">Adotar</button></a>
         </div>
         <p>${lobin.description}</p>
     </div>
