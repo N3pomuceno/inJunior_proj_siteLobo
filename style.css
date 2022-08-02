@@ -290,6 +290,62 @@ iframe {
     cursor: pointer;
 }
 
+._lobo{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 5px 10% 30px 10%;
+    font-size: 30px;
+}
+
+.imgbox {
+    padding: 0 0 0 30px;
+    margin:10px;
+}
+
+.imgbox img {
+    height: 328px;
+    width: 430px;
+    display: inline-block;
+    box-shadow: -30px -30px 0 rgba(44, 86, 128, 1);
+}
+
+.topo_descricao{
+    display:flex;
+    padding: 0 0 0px 0;
+    
+}
+
+.descricao{
+    margin: 0 50% 0 0;
+}
+
+.descricao_d h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* /* ----- */
+
+.topo_descricao_d{
+    display:flex;
+    padding: 0 0 10px 0; 
+    text-align: right;
+}
+
+.descricao_d{
+    margin: 0 0 0 50%;
+}
+
+.descricao h3{
+    font-size: 36px;
+    font-weight: bold;
+} 
+
+#p_d{
+    text-align: right;
+}
+
 /*****************  ADOTAR LOBINHO  ***********************/
 
 .container {

@@ -18,21 +18,26 @@ function getapi(url_site) {
 function show(lobin) {
     console.log(lobin)
     let tab =
-    `<div class='card_lobo_exemplo'>
-        <div class='car_lobo_exemplo_info'>
-            <h4>${lobin.name}</h4>
-            <h5>Idade: ${lobin.age} anos</h5>
-            <h5>ID: ${lobin.id} </h5>
-            <p>${lobin.description}</p>
-        </div>
-        <div>
-            <img src= ${lobin.image_url}>
-        </div>
+    `<div class="_lobo" >
+    <div class="imgbox">
+        <img  src="${lobin.image_url}">
     </div>
+    <div class="coluna">
+        <div class="topo_descricao">
+            <div class="descricao">
+                <h3>${lobin.name}</h3>
+                <p>Idade: ${lobin.age} anos</p>
+                
+            </div>
+            <button class="button_search">Adotar</button>
+        </div>
+        <p>${lobin.description}</p>
+    </div>
+</div>
     `;
     console.log(tab)
     // Setting innerHTML as tab variable
-    document.getElementById("lobos_container2").innerHTML += tab
+    document.getElementById("todos_os_lobos").innerHTML += tab
 }
 
 // Calling that async function
