@@ -1,4 +1,4 @@
-const url_site = "https://lobinhos.herokuapp.com/wolves/282" // url do site que pegará os dados
+const url_site = "https://lobinhos.herokuapp.com/wolves/" // url do site que pegará os dados
 
 
 function adopt_lobinho(){
@@ -23,7 +23,7 @@ function adopt_lobinho(){
         body: JSON.stringify(fetch_body)
     }
 
-    fetch(url_site, fetch_config)
+    fetch(url_site+id_logo_para_adotar, fetch_config)
         .then(resposta => resposta.json()
             .then(resp => { console.log(resp) })
             .catch(error => { console.log(error) }))
@@ -35,3 +35,5 @@ function adopt_lobinho(){
 
 let do_adopt_lobinho = document.querySelector("#button_adotar");
 do_adopt_lobinho.addEventListener("click", adopt_lobinho);
+
+let id_logo_para_adotar = "282"

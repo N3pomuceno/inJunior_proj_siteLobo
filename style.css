@@ -1,5 +1,6 @@
 /***************  GLOBAL ***********************/
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
 html {
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
@@ -12,10 +13,10 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 
     /*Cores e fontes */
-    color:#333333;
+    color: #333333;
     text-decoration: none;
     background: #85CDF5;
 }
@@ -24,16 +25,24 @@ header a {
     font-weight: 700;
     font-size: 30px;
     line-height: 30px;
-    color:black;
+    color: black;
 }
 
-a:link { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
 
-a:visited { text-decoration: none; }
+a:visited {
+    text-decoration: none;
+}
 
-a:hover { text-decoration: none; }
+a:hover {
+    text-decoration: none;
+}
 
-a:active { text-decoration: none; }
+a:active {
+    text-decoration: none;
+}
 
 h1 {
     /*posição*/
@@ -42,7 +51,7 @@ h1 {
 
 h2 {
     /*posição*/
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -53,10 +62,11 @@ footer {
     display: flex;
     justify-content: space-evenly;
     border-top-style: solid;
-    border-image: linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1;/*linear-gradient(88deg,#1100ff -38.42%,#ff0000 150.39%) 1;   linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1*/
+    border-image: linear-gradient(88deg, rgb(222, 182, 89), rgb(45, 86, 128)) 1;
+    /*linear-gradient(88deg,#1100ff -38.42%,#ff0000 150.39%) 1;   linear-gradient(88deg,rgb(222,182,89),rgb(45,86,128)) 1*/
     border-top-width: 0.5rem;
     padding: 20px;
-    
+
 
     /*Cores e fontes */
     color: white;
@@ -84,8 +94,8 @@ iframe {
 
 #footer_button {
     background: rgb(222, 185, 89);
-    border:0;
-    color: rgb(51,51,51);
+    border: 0;
+    color: rgb(51, 51, 51);
     font-size: 20px;
     font-weight: 700;
     display: flex;
@@ -99,7 +109,8 @@ iframe {
 .sec_lobo {
     /* background*/
     width: auto;
-    height: 600px;;
+    height: 600px;
+    ;
     background-image: url("images/homePage_body_lobo-image.png");
     background-size: auto;
     background-repeat: no-repeat;
@@ -111,8 +122,8 @@ iframe {
 }
 
 .sec_lobo h1 {
-    padding-top:10%;
-    font-weight:bold;
+    padding-top: 10%;
+    font-weight: bold;
     font-size: 96px;
     line-height: 130px;
 }
@@ -120,7 +131,7 @@ iframe {
 #linha_lobo {
     border: 3px solid;
     max-width: 10%;
-    max-height:1px;
+    max-height: 1px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -143,13 +154,13 @@ iframe {
     background-color: #2C5680;
 }
 
-.sec_sobre h2{
+.sec_sobre h2 {
     padding-top: 30px;
 
     color: #DEB959;
     font-weight: 900;
     font-size: 48px;
-    line-height: 65px;    
+    line-height: 65px;
 }
 
 .sec_sobre p {
@@ -163,21 +174,21 @@ iframe {
 }
 
 .sec_valores {
-    background-color:#333;
+    background-color: #333;
 
 }
 
-.sec_valores h2{
+.sec_valores h2 {
     padding-top: 30px;
 
     color: #DEB959;
     font-weight: 700;
     font-size: 48px;
-    line-height: 65px;    
+    line-height: 65px;
 }
 
-.sec_valores h3{
-    color:white;
+.sec_valores h3 {
+    color: white;
     font-size: 34px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -188,7 +199,7 @@ iframe {
     /* background*/
     display: flex;
     justify-content: center;
-    height:425px;
+    height: 425px;
 }
 
 .card {
@@ -199,12 +210,12 @@ iframe {
     color: white;
 }
 
-.card div{
+.card div {
     display: flex;
     justify-content: center;
     width: 180px;
     height: 180px;
-    margin:auto;
+    margin: auto;
     background-color: white;
     border-radius: 50%;
 }
@@ -215,25 +226,25 @@ iframe {
 }
 
 .card p {
-    margin:auto;
-    max-width:180px;
+    margin: auto;
+    max-width: 180px;
     line-height: 20px;
 }
 
-.sec_exemplos h2{
+.sec_exemplos h2 {
     padding-top: 30px;
 
     color: #DEB959;
     font-weight: 900;
     font-size: 48px;
-    line-height: 65px;    
+    line-height: 65px;
 }
 
 
 /*****************  LISTA LOBINHOS  ***********************/
 
-.container_s{
-    width:auto;
+.container_s {
+    width: auto;
     padding-top: 10px;
     padding-bottom: 3%;
     padding-left: 10vw;
@@ -242,37 +253,38 @@ iframe {
     justify-content: center;
 }
 
-.container_s :first-child{
+.container_s :first-child {
     display: inline-block;
 }
 
-.search_bar{
+.search_bar {
     border: 1px solid black;
 }
 
-.search{
+.search {
     display: inline-block;
 }
 
-.search_bar input{
+.search_bar input {
     height: 47px;
     width: 950px;
     border: 0;
-    margin:5px;
-    
+    margin: 5px;
+
 }
-.search_bar img{
+
+.search_bar img {
     height: 30px;
     margin-left: 0.5vw;
     vertical-align: middle
 }
 
-#button_search{
+#button_search {
     background-color: #DEB959;
     border: 0;
     font-size: 20px;
     color: white;
-    
+
     width: 130px;
     height: 47px;
     cursor: pointer;
@@ -284,7 +296,7 @@ iframe {
     height: 40vh;
     padding: 80px;
     display: flex;
-    width:auto;
+    width: auto;
     align-items: center;
     justify-content: center;
 }
@@ -313,11 +325,11 @@ iframe {
     gap: 50px;
 }
 
-.header_top_adotar h1{
+.header_top_adotar h1 {
     font-size: 35px;
 }
 
-.header_top_adotar h3{
+.header_top_adotar h3 {
     font-size: 14px;
 }
 
@@ -328,14 +340,14 @@ iframe {
     padding: 1rem 0;
 }
 
-.input_box_adotar{
+.input_box_adotar {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-#name{
+#name {
     width: 55vh;
 }
 
@@ -347,15 +359,15 @@ iframe {
     width: 550px;
 }
 
-.input_box_adotar input{
+.input_box_adotar input {
     border-right: 0;
     border-left: 0;
     border-top: 0;
 }
 
-.button_adotar{
+.button_adotar {
     background-color: #2C5680;
-    color:white;
+    color: white;
     align-items: center;
     justify-content: center;
     padding-left: 58px;
@@ -370,7 +382,7 @@ iframe {
 
 /*****************  ADICIONAR LOBINHO  ***********************/
 
-.container_cadastro{
+.container_cadastro {
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 50px;
@@ -378,50 +390,54 @@ iframe {
     align-items: center;
 }
 
-.form_cadastro{
+.form_cadastro {
     padding: 10px;
     border: 3px solid black;
 }
 
-.form_cadastro > h1{
+.form_cadastro>h1 {
     font-size: 35px;
     margin: 10px;
 }
 
-.input_group_cadastrar{
+.input_group_cadastrar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.input_box_cadastrar{
+.input_box_cadastrar {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    
+
 }
 
-#name_c{
+#name_c {
     width: 20vw;
 }
-#age_c{
+
+#age_c {
     width: 5vw;
 }
+
 #link_c {
     width: 27vw;
 }
-#description{
+
+#description {
     width: 27vw;
 }
 
-.input_group_cadastrar input, textarea{
+.input_group_cadastrar input,
+textarea {
     background-color: lightgray;
     border: 1px solid black;
 }
 
 /******************QUEM SOMOS*************************/
 
-#footer_quem_somos{
+#footer_quem_somos {
     position: absolute;
     bottom: 0;
     width: 97.9%;
@@ -445,3 +461,84 @@ iframe {
     margin-right: 320px;
     text-align: center;
 }
+
+/*************************SHOW LOBINHO***************************/
+
+#nome_lobo {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.conteiner_showLobinho {
+    display: flex;
+    padding: 0 25% 0 20%;
+}
+
+#imagem_lobo {
+    width: 500px;
+    height: 328px;
+    width: 430px;
+    display: inline-block;
+    box-shadow: -30px -30px 0 rgba(44, 86, 128, 1);
+    /* padding-right: 10%; */
+}
+
+#description_lobo {
+    font-family: 'Roboto';
+    text-align: left;
+    padding: 10%;
+    /* margin-left: auto; */
+    /* margin: 50% */
+}
+
+.button_faz_coisa {
+    padding-left: 28%;
+    padding-top: 3%;
+}
+
+#button_adotar {
+    background: #7AAC3A;
+    width: 180px;
+    height: 56px;
+    left: 469px;
+    top: 683px;
+}
+
+#excluir_adotar {
+    background: #DE5959;
+    width: 180px;
+    height: 56px;
+    left: 469px;
+    top: 683px;
+
+}
+
+/* 
+.button_faz_coisa {
+    padding: 30px 150px;
+    overflow: hidden; 
+}
+
+#button_adotar {
+    display: block;
+    float: left;
+    background: #7AAC3A;
+    width: 180px;
+    height: 56px;
+    left: 469px;
+    top: 683px;
+}
+
+#excluir_adotar {
+    display: block;
+    float: right;
+    background: #DE5959;
+    width: 180px;
+    height: 56px;
+    left: 469px;
+    top: 683px;
+
+} */
