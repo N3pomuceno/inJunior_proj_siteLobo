@@ -59,3 +59,12 @@ function lobinho_login() {
 }
 let do_lobinho_login = document.querySelector(".button_adotar");
 do_lobinho_login.addEventListener("click", lobinho_login);
+
+
+// HOMEPAGE
+
+
+
+
+
+// LISTA DE LOBINHOS
