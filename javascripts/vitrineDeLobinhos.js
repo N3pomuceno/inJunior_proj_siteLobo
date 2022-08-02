@@ -32,7 +32,7 @@ function show(lobin) {
     `;
     console.log(tab)
     // Setting innerHTML as tab variable
-    document.getElementById("lobos_container2").innerHTML = tab;
+    document.getElementById("lobos_container2").innerHTML += tab
 }
 
 // Calling that async function
