@@ -33,5 +33,6 @@ function lobinho_login() {
         .catch(error => { console.log(error) })
 
 }
-let do_lobinho_login = document.querySelector("#button_cadastrar");
+let do_lobinho_login = document.querySelector(".button_adotar");
 do_lobinho_login.addEventListener("click", lobinho_login);
+
