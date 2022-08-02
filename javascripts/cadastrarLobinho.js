@@ -35,7 +35,3 @@ function lobinho_login() {
 }
 let do_lobinho_login = document.querySelector("#button_cadastrar");
 do_lobinho_login.addEventListener("click", lobinho_login);
-
-//___________________________________________________
-
-// Adoção de Lobinhos
